@@ -1,0 +1,9 @@
+{
+	"type": "module",
+	"dependencies": {
+		"vite": "^3.0.2"
+	},
+	"scripts": {
+		"test": "node index.js && node dist/index-working.js && node dist/index-broken.js"
+	}
+}
